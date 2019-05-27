@@ -1,14 +1,16 @@
 body {
     font-family: 'Oswald', 'Roboto Condensed', sans-serif;
+    background: red;
 }
 .container {
-
+    width: 1200px;
+    border: 1px solid black;
+    margin: auto;
 }
 .navbar{
-    border: 1px solid black;
+    
 }
 ul, li {
-    width: 1200px;
     display: inline;
     background-color: rgba(255, 255, 255, 0.9);
 }
