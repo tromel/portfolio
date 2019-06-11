@@ -1,9 +1,15 @@
 body {
     font-family: 'Oswald', 'Roboto Condensed', sans-serif;
-    background: rgb(99, 160, 157);
+    /* background: rgb(99, 160, 157); */
+    background: url(/images/Electromagnetic-waves_01-PS-640x425.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
 }
 .navbar .navbar-collapse {
     text-align: center;
+    color: #fff;
 }
 /* .container {
     width: 1200px;
