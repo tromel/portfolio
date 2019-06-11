@@ -55,12 +55,14 @@ body {
   @media screen and (min-width: 601px) {
     .overskrift2 {
       font-size: 20px;
+      padding-right: 25vw;
     }   
   }
 
   @media screen and (max-width: 600px) {
     .overskrift2 {
    padding-left: 15vw;
+   padding-right: 10vw;
       font-size: 20px;
     }
   }
