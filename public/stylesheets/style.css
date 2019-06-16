@@ -204,3 +204,7 @@ img.grayscale:hover {
     filter: none;
     -webkit-filter: grayscale(0%);
 }
+.fixed-top.scrolled {
+    background-color: rgba(0, 0, 0, 0.550) !important;
+    transition: background-color 500ms ease;
+  }
