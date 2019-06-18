@@ -75,6 +75,9 @@ ul.nav li a:hover, ul.nav li a:active {
     padding-right: 10vw;
     font-size: 20px;
     }
+    .text-center {
+        font-size: 20px;
+    }
 }
   .h2-left {
     margin-left: 15vw;
