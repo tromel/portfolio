@@ -48,6 +48,9 @@ ul.nav li a:hover, ul.nav li a:active {
    color: #fff;
    font-weight: 700;
 }
+.skew {
+    transform: skew(0deg, 10deg) translateY(190px);
+}
 .overskrift2 {
     padding-left: 25vw;
     color: #fff;
