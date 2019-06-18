@@ -13,7 +13,6 @@ ul.nav li a:hover, ul.nav li a:active {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
     /* transform: skew(0deg, -10deg) translateY(-190px); */
 }
 .canvasg {
@@ -52,7 +51,7 @@ ul.nav li a:hover, ul.nav li a:active {
     transform: skew(0deg, 10deg) translateY(190px);
 }
 .overskrift2 {
-    padding-left: 30git vw;
+    padding-left: 30vw;
     color: #fff;
  }
 
