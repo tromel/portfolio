@@ -14,6 +14,7 @@ ul.nav li a:hover, ul.nav li a:active {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    /* transform: skew(0deg, -10deg) translateY(-190px); */
 }
 .canvasg {
     width: 100%;
@@ -22,6 +23,7 @@ ul.nav li a:hover, ul.nav li a:active {
     position: relative;
     display: flex;   
     flex-wrap: wrap;
+    /* transform: skew(0deg, -10deg) translateY(-190px); */
 }
 .canvasb {
     width: 100%;
@@ -30,6 +32,7 @@ ul.nav li a:hover, ul.nav li a:active {
     position: relative;
     display: flex;   
     flex-wrap: wrap;
+    /* transform: skew(0deg, -10deg) translateY(-190px); */
 }
 .canvascontact {
     width: 100%;
@@ -37,6 +40,7 @@ ul.nav li a:hover, ul.nav li a:active {
     position: relative;
     display: flex;   
     flex-wrap: wrap;
+    /* transform: skew(0deg, -10deg) translateY(-190px); */
 }
 .overskrift {
    padding-top: 40vh;
