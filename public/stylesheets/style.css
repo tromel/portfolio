@@ -13,7 +13,6 @@ ul.nav li a:hover, ul.nav li a:active {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
     /* transform: skew(0deg, -10deg) translateY(-190px); */
 }
 .canvasg {
