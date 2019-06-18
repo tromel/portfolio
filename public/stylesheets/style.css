@@ -13,6 +13,7 @@ ul.nav li a:hover, ul.nav li a:active {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
     /* transform: skew(0deg, -10deg) translateY(-190px); */
 }
 .canvasg {
@@ -57,7 +58,7 @@ ul.nav li a:hover, ul.nav li a:active {
 
 @media screen and (min-width: 601px) {
     .overskrift {
-    font-size: 60px;
+    font-size: 40px;
     }
     .overskrift2 {
     font-size: 20px;
