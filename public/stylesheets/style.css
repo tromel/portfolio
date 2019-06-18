@@ -8,7 +8,7 @@ ul.nav li a:hover, ul.nav li a:active {
     color: rgb(151, 146, 146) !important;
 }
 .cover {
-    background: url(/ja.jpg);
+    background: url(/strand.jpg);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -43,8 +43,8 @@ ul.nav li a:hover, ul.nav li a:active {
     /* transform: skew(0deg, -10deg) translateY(-190px); */
 }
 .overskrift {
-   padding-top: 40vh;
-   padding-left: 25vw;
+   padding-top: 35vh;
+   padding-left: 30vw;
    color: #fff;
    font-weight: 700;
 }
@@ -52,7 +52,7 @@ ul.nav li a:hover, ul.nav li a:active {
     transform: skew(0deg, 10deg) translateY(190px);
 }
 .overskrift2 {
-    padding-left: 25vw;
+    padding-left: 30git vw;
     color: #fff;
  }
 
