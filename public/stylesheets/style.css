@@ -13,6 +13,7 @@ ul.nav li a:hover, ul.nav li a:active {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    /* background-attachment: fixed; */
     /* transform: skew(0deg, -10deg) translateY(-190px); */
 }
 .canvasg {
@@ -24,6 +25,14 @@ ul.nav li a:hover, ul.nav li a:active {
     flex-wrap: wrap;
     /* transform: skew(0deg, -10deg) translateY(-190px); */
 }
+.container-fluid:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+  .container-fluid {
+    transition: transform .5s;
+  }
 .canvasb {
     width: 100%;
     height: 80vh;
