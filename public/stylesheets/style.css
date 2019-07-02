@@ -1,6 +1,9 @@
 body {
     font-family: 'Oswald', 'Roboto Condensed', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+  }
 .navbar .navbar-collapse {
     text-align: center;
 }
