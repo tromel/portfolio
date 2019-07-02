@@ -312,11 +312,3 @@ img.grayscale:hover {
     transform: rotate(-45deg) translate(4px, -4px);
     transition: ease all .2s;
   }
-  
-  .sec-accent {
-    background-color: #fafcf5;
-  }
-  
-  .blue {
-    background-color: #9999cc;
-  }
