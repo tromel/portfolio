@@ -16,6 +16,11 @@ ul.nav li a:hover, ul.nav li a:active {
     background-attachment: fixed;
     /* transform: skew(0deg, -10deg) translateY(-190px); */
 }
+@media only screen and (max-width: 600px) {
+    .cover {
+        background-attachment: scroll;
+    }
+} 
 .canvasg {
     width: 100%;
     height: 80vh;
