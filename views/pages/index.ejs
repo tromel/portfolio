@@ -46,7 +46,7 @@
     <div class="cover" alt="cover">
         <h1 class="overskrift">Trond Meling</h1>
         <p class="overskrift2">Web engineer.</p>
-        
+    
     </div>
 
     <div class="canvasg grow" id="portfolio">
@@ -241,6 +241,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script>
+                $(function () {
+                    $(document).scroll(function () {
+                        var $nav = $(".fixed-top");
+                        $nav.toggleClass('scrolled', $(this).scrollTop() > 600);
+                    });
+                });
+            </script>
     <footer>
 
     </footer>
