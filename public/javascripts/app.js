@@ -8,3 +8,11 @@ form.addEventListener('submit', e => {
         .catch(error => console.error('Error!', error.message))
     form.reset();
 })
+
+$(function () {
+    $(document).scroll(function () {
+        var $nav = $(".fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > 600);
+    });
+});
+            
