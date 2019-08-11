@@ -293,10 +293,10 @@ img.grayscale:hover {
     transition: ease all .2s;
   }
   
-  .navbar-toggler:active>.icon-bar:nth-child(2) {
+.navbar-toggler:active>.icon-bar:nth-child(2) {
     width: 22px;
     transition: ease all .2s;
-  }
+}
   
   .navbar-toggler:not(.collapsed) .icon-bar:nth-child(1) {
     transform: rotate(45deg) translate(5px, 4px);
